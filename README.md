@@ -1,3 +1,5 @@
+# local window onpremise CPU chatbot hf.co/Bllossom/llama-3.2-Korean-Bllossom-3B-gguf-Q4_K_M
+
 # LangGraph Django Chatbot with Ollama & FAISS
 
 This project is a Django-based chatbot system that integrates LangChain, LangGraph, FAISS, and AutoGen. It uses a local Ollama model to generate responses based on user questions and leverages a FAISS vector database for efficient similarity search and caching.
@@ -22,7 +24,7 @@ The system workflow is as follows:
 
 ## Requirements
 
-- Python 3.8+
+- Python 3.9
 - Django 4.2.20
 - langchain-ollama
 - faiss-cpu
