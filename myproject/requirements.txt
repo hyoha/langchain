@@ -1,0 +1,32 @@
+# Django 프레임워크
+django>=4.2,<5.0
+
+# LangChain 및 관련 패키지
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-community>=0.1.0  # 최신 LangChain에서 필요함
+
+# LangGraph (LangChain 확장)
+langgraph>=0.1.42
+
+# OpenAI API 사용 시 필요 (옵션)
+openai>=1.0.0
+
+# 기타 유틸리티 패키지 (필요에 따라 추가 가능)
+requests>=2.31.0
+tqdm>=4.64.0
+pydantic>=2.10.6  # LangChain 및 LangGraph에서 필요
+
+ollama
+
+#cross 미들웨어
+django-cors-headers
+langchain-community
+faiss-cpu
+langchain
+#openai
+autogen
+fix-busted-json
+langchain-ollama
+#pip install ollama faiss-cpu langchain-community autogen
+#pip install -U langchain-ollama
